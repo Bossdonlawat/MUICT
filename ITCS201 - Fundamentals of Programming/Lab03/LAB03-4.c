@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+  int a, b = 0, c = 0, d = 0, tmp;
+  scanf("%d", &a);
+  if (a % 100 != 0) {
+    printf("Sorry.. the amounts you insert are not possible to withdrawn");
+  }
+  else {
+    while (a != 0) {
+      if (a >= 1000) {
+        b++;
+        a-=1000;
+      }
+      else if (a >= 500) {
+        c++;
+        a-=500;
+      }
+      else {
+        d++;
+        a-=100;
+      }
+    }
+    printf("Summary of banknotes:\n%d notes of 1000 bath\n%d notes of 500 bath\n%d notes of 100 bath", b, c, d);
+  }
+  return 0;
+}
