@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-  int a, b = 0, c = 0, d = 0, tmp;
+  int a, b = 0, c = 0, d = 0;
   scanf("%d", &a);
   if (a % 100 != 0) {
     printf("Sorry.. the amounts you insert are not possible to withdrawn");
