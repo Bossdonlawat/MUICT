@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LetterPrinter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LetterPrinter_jar</output-path>
+    <root id="archive" name="LetterPrinter.jar">
+      <element id="module-output" name="LetterPrinter" />
+    </root>
+  </artifact>
+</component>
