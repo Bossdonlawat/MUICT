@@ -1,5 +1,3 @@
-import java.util.Date;
-
 public class AirQualityProfile {
   private String location, weather;
   private int aqi, p25, temp;
