@@ -56,29 +56,31 @@ public class AirQualityProfile {
   }
 
   public void printAirQualityInfo() {
-    System.out.println(location + " at " + getDatetime());
-    System.out.println("AQI: " + aqi + ", PM2.5: " + p25 + "microgram/m3");
-    System.out.println(temp + " celsius (" + weather + ")");
+    System.out.println(getLocation() + " at " + getDatetime());
+    System.out.println("AQI: " + getAqi() + ", PM2.5: " + getP25() + "microgram/m3");
+    System.out.println(getTemp() + " celsius (" + getWeather() + ")");
+    System.out.println("Is unhealthy?: " + isUnhealthy());
+    System.out.println("Overall:" + airCondition());
   }
 
-  public void airCondition() {
+  public String airCondition() {
     if(aqi > 300) {
-      System.out.println("Hazardous");
+      return "Hazardous";
     }
     else if(aqi > 200) {
-      System.out.println("Very Unhealthy");
+      return "Very Unhealthy";
     }
     else if(aqi > 150) {
-      System.out.println("Unhealthy");
+      return "Unhealthy";
     }
     else if(aqi > 100) {
-      System.out.println("Unhealthy for Sensitive Groups");
+      return "Unhealthy for Sensitive Groups";
     }
     else if(aqi > 50) {
-      System.out.println("Moderate");
+      return "Moderate";
     }
     else {
-      System.out.println("Good");
+      return "Good";
     }
   }
 
