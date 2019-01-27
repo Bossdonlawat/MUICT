@@ -1,14 +1,12 @@
+import java.time.*;
+
 public class AirQualityProfile {
   private String location, weather;
   private int aqi, p25, temp;
-  private LocalDateTime datetime = new LocalDateTime();
+  private LocalDateTime datetime;
 
-  public void setDatetime(int year, int month, int day, int hour, int minute) {
-    datetime.setYear(year);
-    datetime.setMonth(month);
-    datetime.setDay(day);
-    datetime.setHour(hour);
-    datetime.setMinute(minute);
+  public void setDatetime(LocalDateTime a) {
+    datetime = a;
   }
 
   public void setLocation(String a) {
@@ -31,8 +29,8 @@ public class AirQualityProfile {
     weather = a;
   }
 
-  public String getDatetime() {
-    return datetime.getYear() + "-" + ((datetime.getMonth()) < 10 ? "0": "") + datetime.getMonth() + "-" + ((datetime.getDay()) < 10 ? "0": "") + datetime.getDay() + " " + ((datetime.getHour()) < 10 ? "0": "") + datetime.getHour() + ":" + ((datetime.getMinute()) < 10 ? "0": "") + datetime.getMinute();
+  public LocalDateTime getDatetime() {
+    return datetime;
   }
 
   public String getLocation() {
@@ -59,8 +57,8 @@ public class AirQualityProfile {
     System.out.println(getLocation() + " at " + getDatetime());
     System.out.println("AQI: " + getAqi() + ", PM2.5: " + getP25() + "microgram/m3");
     System.out.println(getTemp() + " celsius (" + getWeather() + ")");
-    System.out.println("Is unhealthy?: " + isUnhealthy());
-    System.out.println("Overall:" + airCondition());
+    // System.out.println("Is unhealthy?: " + isUnhealthy());
+    // System.out.println("Overall:" + airCondition());
   }
 
   public String airCondition() {
