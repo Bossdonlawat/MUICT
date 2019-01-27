@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="753f9af4-6fc8-4894-8d44-da93733bff5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Lab02/AirQuality/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab02/AirQuality/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab02/AirQuality/src/AirQualityDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab02/AirQuality/src/AirQualityDataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab02/AirQuality/src/AirQualityProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab02/AirQuality/src/AirQualityProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab02/AirQuality/src/LocalDateTime.java" beforeDir="false" />
-    </list>
+    <list default="true" id="753f9af4-6fc8-4894-8d44-da93733bff5e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,21 +10,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="68">
               <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="e#75#76#0" expanded="true" />
-                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
                 <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/BankAccountTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -78,8 +73,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,6 +89,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -140,15 +135,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -156,28 +147,32 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="68">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="e#75#76#0" expanded="true" />
-            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -185,7 +180,7 @@
     <entry file="file://$PROJECT_DIR$/src/BankAccountTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
