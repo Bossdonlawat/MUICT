@@ -21,7 +21,7 @@ public class ElectionTester {
 
     // Get scanner
     Scanner in = new Scanner(System.in);
-    for (int i = 0 ; i < 3 ; i--) {
+    for (int i = 0 ; i < 3 ; i--) { // -- for infinite loop
       System.out.print("Enter firstname or type 'q' to exit: ");
       String firstname = in.nextLine();
       if(firstname.equals("q") || firstname.equals("Q")) {
