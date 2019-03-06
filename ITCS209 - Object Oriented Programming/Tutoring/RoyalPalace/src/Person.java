@@ -1,3 +1,5 @@
+// Source can be found at: https://github.com/rayriffy/MUICT
+
 public class Person {
   private String name;
   private int wife = 0;

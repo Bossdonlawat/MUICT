@@ -1,3 +1,5 @@
+// Source can be found at: https://github.com/rayriffy/MUICT
+
 public class Thailand {
   public static void main(String[] args) {
 

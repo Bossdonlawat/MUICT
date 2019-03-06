@@ -1,3 +1,5 @@
+// Source can be found at: https://github.com/rayriffy/MUICT
+
 public class King extends Person {
   private int number;
   private boolean isDead;

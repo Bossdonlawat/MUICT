@@ -1,3 +1,5 @@
+// Source can be found at: https://github.com/rayriffy/MUICT
+
 import java.util.ArrayList;
 
 public class Palace {
@@ -11,7 +13,7 @@ public class Palace {
 
   public void addPerson(Person person) {
     if (person instanceof King) {
-      kings.add((King) person);
+      kings.add((King) person); // King
     } else {
       lads.add((Lad) person);
     }
