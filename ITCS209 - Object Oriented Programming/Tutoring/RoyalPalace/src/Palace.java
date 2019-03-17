@@ -13,7 +13,7 @@ public class Palace {
 
   public void addPerson(Person person) {
     if (person instanceof King) {
-      kings.add((King) person); // King
+      kings.add((King) person);
     } else {
       lads.add((Lad) person);
     }
