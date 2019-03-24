@@ -71,7 +71,7 @@ public class ShapeTester  {
 
     for (String key : shapes.keySet()) {
       Matcher m = p.matcher(key);
-      if (m.matches() == false) {
+      if (!m.matches()) {
         count++;
       }
     }
