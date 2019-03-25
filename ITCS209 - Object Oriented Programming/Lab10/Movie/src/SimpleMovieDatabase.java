@@ -21,6 +21,9 @@ public class SimpleMovieDatabase {
 
         // Check for valid input
         if (chunks.length == 3) {
+          if (chunks[1].length() == 1 && chunks[1].contains(" ")) {
+            continue;
+          }
           int key = Integer.parseInt(chunks[0]);
           String title = chunks[1];
           String[] tags = chunks[2].replace("|", ",").split(",");
